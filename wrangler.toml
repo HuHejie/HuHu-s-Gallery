@@ -1,0 +1,16 @@
+name = "huhu-s-gallery" # 项目名称
+account_id = "bb8d1ead8c2356ca6d2f2abbe17066f0" 
+workers_dev = true  
+compatibility_date = "2024-10-20" 
+
+main = "./build/static/js/main.*.js"
+
+# 配置 build，自动执行构建命令
+[build]
+command = "npm run build" #
+cwd = "./" # 工作目录
+
+# 启用日志记录
+[observability]
+enabled = true
+head_sampling_rate = 1
