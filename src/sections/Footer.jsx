@@ -3,10 +3,10 @@ import React from "react";
 import { useLocomotiveScroll } from "react-locomotive-scroll";
 import styled from "styled-components";
 
-import Logo from "../assets/Svgs/star_white_48dp.svg";
+import Logo from "../assets/Pngs/logoonly.png";
 
 const Section = styled.section`
-  min-height: 100vh;
+  min-height: 50vh;
   width: 100%;
   /* margin: 5rem auto; */
 
@@ -15,7 +15,6 @@ const Section = styled.section`
   justify-content: center;
   align-items: center;
   overflow-x: hidden;
-
 
   background-color: ${(props) => props.theme.body};
   color: ${(props) => props.theme.text};
@@ -37,6 +36,7 @@ const LogoContainer = styled.div`
   h3 {
     font-family: "Kaushan Script";
     font-size: ${(props) => props.theme.fontxxl};
+    margin-top: 2rem;
 
     @media (max-width: 48em) {
       font-size: ${(props) => props.theme.fontxl};
@@ -125,6 +125,7 @@ const Footer = () => {
 
   return (
     <Section>
+      <Section id="footer"></Section>
       <LogoContainer>
         <img
           width="300"
@@ -135,7 +136,7 @@ const Footer = () => {
           data-scroll-speed="2"
         />
         <h3 data-scroll data-scroll-speed="-1">
-          Wibe Studio
+          Photog_HuHu
         </h3>
       </LogoContainer>
       <FooterComponent
@@ -154,19 +155,27 @@ const Footer = () => {
             about
           </li>
           <li aria-hidden="true" onClick={() => handleScroll("#shop")}>
-            shop
+            Humble works
           </li>
-          <li aria-hidden="true" onClick={() => handleScroll(".new-arrival")}>
+          {/* <li aria-hidden="true" onClick={() => handleScroll(".new-arrival")}>
             new arrival
-          </li>
+          </li> */}
           <li>
-            <a href="https://google.com" target={"_blank"} rel="noreferrer">
-              look book
+            <a
+              href="https://www.instagram.com/hu.hejie/"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              Instragram
             </a>
           </li>
           <li>
-            <a href="https://google.com" target={"_blank"} rel="noreferrer">
-              reviews
+            <a
+              href="mailto:jlhuhejie@gmail.com"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              Mail
             </a>
           </li>
         </ul>
@@ -176,21 +185,14 @@ const Footer = () => {
             data-scroll-speed="2"
             data-scroll-direction="horizontal"
           >
-            &copy; 2022. All Rights Reserved.
+            &copy; 2024. huhu. All Rights Reserved.
           </span>
           <span
             data-scroll
             data-scroll-speed="-2"
             data-scroll-direction="horizontal"
           >
-            Made with &hearts; by{" "}
-            <a
-              href="http://devdreaming.com"
-              target={"_blank"}
-              rel="dofollow noreferrer"
-            >
-              CodeBucks
-            </a>
+            Capture the beauty in every moment.
           </span>
         </Bottom>
       </FooterComponent>

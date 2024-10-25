@@ -41,7 +41,7 @@ const Title = styled.h1`
 
   position: absolute;
   top: 1rem;
-  left: 5%;
+  left: 2%;
   z-index: 11;
 
   @media (max-width: 64em) {
@@ -197,33 +197,32 @@ const Shop = () => {
   return (
     <Section ref={ref} id="shop">
       <Title data-scroll data-scroll-speed="-1">
-        New Collection
+        Humble Works
       </Title>
       <Left>
         <p>
-          The brand new collection is currently being developed in USA. We
-          create our products using best quality material, including the use of
-          some of the pure fabrics to make our products. All products are made
-          using the best materials, from the finest cotton to the finest
-          fabrics.
+          Life is complex and challenging. Each person has their own unique
+          traits, their own path, and their own story. I use my camera to
+          capture these distinct lives, reflecting the wide spectrum of human
+          experiences—their struggles, joys, and moments of contemplation.
           <br /> <br />
-          We have lots of different clothing options like shoes, jackets and
-          dresses. Not only clothes but we also provide unique Jewellery as
-          well. It is great for us to carry our new clothes all around the
-          country and look different.
+          Through my photography, I aim to showcase the beauty of diversity,
+          highlighting the richness of how people live and experience the world.
+          Every image invites viewers to explore different perspectives and
+          connect with the stories behind each frame.
         </p>
       </Left>
       <Right data-scroll ref={Horizontalref}>
-        <Product img={img3} title="Sweatshirts" />
-        <Product img={img4} title="Ethnic Wear" />
-        <Product img={img1} title="Man Basics" />
-        <Product img={img2} title="Tops" />
-        <Product img={img5} title="Blazers" />
-        <Product img={img6} title="Suits" />
-        <Product img={img7} title="Antiques" />
-        <Product img={img8} title="Jewellery" />
-        <Product img={img9} title="Watches" />
-        <Product img={img10} title="Special Edition" />
+        <Product img={img3} title="" />
+        <Product img={img4} title="" />
+        <Product img={img1} title="" />
+        <Product img={img2} title="" />
+        <Product img={img5} title="" />
+        <Product img={img6} title="" />
+        <Product img={img7} title="" />
+        <Product img={img8} title="" />
+        <Product img={img9} title="" />
+        <Product img={img10} title="" />
       </Right>
     </Section>
   );

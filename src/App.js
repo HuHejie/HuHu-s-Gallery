@@ -11,7 +11,7 @@ import About from "./sections/About";
 import Footer from "./sections/Footer";
 import Home from "./sections/Home";
 import Marquee from "./sections/Marquee";
-import NewArrival from "./sections/NewArrival";
+//import NewArrival from "./sections/NewArrival";//
 import Shop from "./sections/Shop";
 import GlobalStyles from "./styles/GlobalStyles";
 import { dark } from "./styles/Themes";
@@ -61,7 +61,7 @@ function App() {
               <About key="about" />
               <Shop key="Shop" />
               <Marquee key="marquee" />
-              <NewArrival key="new arrival" />
+              {/* <NewArrival key="new arrival" /> 注释掉 NewArrival 部分 */}
               <Footer key="Footer" />
             </AnimatePresence>
           </main>

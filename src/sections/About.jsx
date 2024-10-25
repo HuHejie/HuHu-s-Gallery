@@ -141,23 +141,25 @@ const About = () => {
         data-scroll-speed="-2"
         data-scroll-direction="horizontal"
       >
-        About Us
+        About Me
       </Title>
       <Left data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
-        We&apos;re fashion studio based in california. We create unique designs
-        that will blow your mind. We also design unique jewellary pieces.
-        Fashion is an ART that can not be grasped by everyone.
+        My passion for photography began during my university years, where my
+        engineering background fostered a unique blend of precision and
+        creativity. Photography allows me to explore life both technically and
+        artistically.
         <br />
         <br />
-        We are very dedicated to making our products. We offer unique and
-        creative products to a wide range of people. We have a variety of
-        styles, but for most people, all of the options are in the box. We
-        specialize in making things that make you happy.
+        To me, photography is about more than just capturing images; it's about
+        telling stories and preserving fleeting moments. I focus on the emotion
+        behind each shot, using light, shadow, and detail to highlight the
+        extraordinary in the everyday.
         <br />
         <br />
-        We strive to build on our vision. As a fashion label, we do our best to
-        create amazing experiences for all people. We are always looking to make
-        something that is easy for everyone.
+        My work seeks to capture life's beauty and complexity, from bustling
+        cities to peaceful landscapes. Through my lens, I aim to evoke emotion
+        and inspire reflection, offering viewers a new way to engage with the
+        world.
       </Left>
 
       <Right>
