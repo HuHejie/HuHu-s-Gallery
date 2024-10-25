@@ -4,9 +4,6 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import React, { useLayoutEffect, useRef } from "react";
 import styled from "styled-components";
 
-import img1 from "../assets/Images/1.webp";
-import img2 from "../assets/Images/2.webp";
-import img3 from "../assets/Images/3.webp";
 import img4 from "../assets/Images/4.webp";
 import img5 from "../assets/Images/5.webp";
 import img6 from "../assets/Images/6.webp";
@@ -14,6 +11,10 @@ import img7 from "../assets/Images/7.webp";
 import img8 from "../assets/Images/8.webp";
 import img9 from "../assets/Images/9.webp";
 import img10 from "../assets/Images/10.webp";
+import img11 from "../assets/Images/11.webp";
+import img12 from "../assets/Images/12.webp";
+import img13 from "../assets/Images/13.webp";
+import img14 from "../assets/Images/14.webp";
 
 const Section = styled(motion.section)`
   min-height: 100vh;
@@ -135,7 +136,7 @@ const Product = ({ img, title = "" }) => {
       transition={{ duration: 0.5 }}
       viewport={{ once: false, amount: "all" }}
     >
-      <img width="400" height="600" src={img} alt={title} />
+      <img width="600" height="900" src={img} alt={title} />
       <h1>{title}</h1>
     </Item>
   );
@@ -213,16 +214,17 @@ const Shop = () => {
         </p>
       </Left>
       <Right data-scroll ref={Horizontalref}>
-        <Product img={img3} title="" />
         <Product img={img4} title="" />
-        <Product img={img1} title="" />
-        <Product img={img2} title="" />
         <Product img={img5} title="" />
         <Product img={img6} title="" />
         <Product img={img7} title="" />
         <Product img={img8} title="" />
         <Product img={img9} title="" />
         <Product img={img10} title="" />
+        <Product img={img11} title="" />
+        <Product img={img12} title="" />
+        <Product img={img13} title="" />
+        <Product img={img14} title="" />
       </Right>
     </Section>
   );
