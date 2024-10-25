@@ -144,10 +144,7 @@ const About = () => {
         About Me
       </Title>
       <Left data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
-        My passion for photography began during my university years, where my
-        engineering background fostered a unique blend of precision and
-        creativity. Photography allows me to explore life both technically and
-        artistically.
+        My passion for photography began in college, where my engineering background helped me blend precision with creativity. Photography allows me to explore life both technically and artistically.
         <br />
         <br />
         To me, photography is about more than just capturing images; it's about
