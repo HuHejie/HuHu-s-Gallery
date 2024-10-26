@@ -131,7 +131,7 @@ const Footer = () => {
           width="300"
           height="300"
           src={Logo}
-          alt="Wibe"
+          alt="HuHu-logo"
           data-scroll
           data-scroll-speed="2"
         />

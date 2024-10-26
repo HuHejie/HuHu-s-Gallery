@@ -144,19 +144,18 @@ const About = () => {
         About Me
       </Title>
       <Left data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
-        My passion for photography began in college, where my engineering background helped me blend precision with creativity. Photography allows me to explore life both technically and artistically.
+        My passion for photography began in earnest in my university
+        undergraduate days, where my engineering background taught me to pay
+        attention to detail while thinking creatively. Photography has become my
+        favorite way to express myself, letting me explore life from both a
+        logical and artistic perspective.
         <br />
-        <br />
-        To me, photography is about more than just capturing images; it's about
-        telling stories and preserving fleeting moments. I focus on the emotion
-        behind each shot, using light, shadow, and detail to highlight the
-        extraordinary in the everyday.
-        <br />
-        <br />
-        My work seeks to capture life's beauty and complexity, from bustling
-        cities to peaceful landscapes. Through my lens, I aim to evoke emotion
-        and inspire reflection, offering viewers a new way to engage with the
-        world.
+        <br />I believe the best photos are the ones that bring back a scent, a
+        feeling, or an essence. That’s why I love capturing candid shots that
+        personify pure feeling, enhanced by the use of light, shadow,
+        composition, and all the fine details. Through my lens, I hope viewers
+        can get a glimpse of how I see the world, offering viewers a new way to
+        engage with the world.
       </Left>
 
       <Right>

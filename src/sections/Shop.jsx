@@ -202,15 +202,14 @@ const Shop = () => {
       </Title>
       <Left>
         <p>
-          Life is complex and challenging. Each person has their own unique
-          traits, their own path, and their own story. I use my camera to
-          capture these distinct lives, reflecting the wide spectrum of human
-          experiences—their struggles, joys, and moments of contemplation.
+          Life is full of complexity and challenges, and everyone has their own
+          story to tell. I use my camera to capture these unique lives,
+          reflecting emotions like struggle, joy, and quiet contemplation.
           <br /> <br />
-          Through my photography, I aim to showcase the beauty of diversity,
-          highlighting the richness of how people live and experience the world.
-          Every image invites viewers to explore different perspectives and
-          connect with the stories behind each frame.
+          Beauty comes in many forms, and through my lens, I aim to showcase the
+          unique beauty in each person. I hope my photos invite viewers to see
+          the world from a new perspective and connect with the stories behind
+          them.
         </p>
       </Left>
       <Right data-scroll ref={Horizontalref}>
